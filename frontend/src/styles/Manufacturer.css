@@ -1,0 +1,46 @@
+.manufacturer-section {
+    text-align: center;
+    padding: 10px 0; /* Adjust padding as needed */
+    background-color: #f6f5f7; /* Optional background color */
+  }
+  
+  .section-title {
+    font-size: 1.8em;
+    margin-bottom: 20px; /* Space between title and scroll container */
+  }
+  
+  .manufacturer-scroll {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .scroll-container {
+    display: flex;
+    width: fit-content;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .manufacturer-logo {
+    flex: 0 0 auto;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .manufacturer-logo img {
+    max-height: 100px;
+    object-fit: contain;
+  }
+  
+  /* Scroll animation */
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

@@ -1,0 +1,91 @@
+/* Default styles for larger screens */
+.project-header {
+  position: relative;
+  width: 100%;
+  height: 60vh; /* Adjust height as needed */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white; /* Text color */
+  overflow: hidden;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+  max-width: 80%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Background with opacity */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.header-content h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.header-content p {
+  font-size: 1.5em;
+  line-height: 1.4;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .project-header {
+    height: 50vh; /* Adjust height for medium screens */
+  }
+  
+  .header-content {
+    max-width: 90%; /* Increase max-width for medium screens */
+    padding: 15px; /* Reduce padding for medium screens */
+  }
+  
+  .header-content h1 {
+    font-size: 2.5em; /* Adjust font size for medium screens */
+  }
+  
+  .header-content p {
+    font-size: 1.3em; /* Adjust font size for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .project-header {
+    height: 40vh; /* Adjust height for tablets and smaller screens */
+  }
+  
+  .header-content {
+    max-width: 95%; /* Increase max-width for smaller screens */
+    padding: 10px; /* Further reduce padding for smaller screens */
+  }
+  
+  .header-content h1 {
+    font-size: 2em; /* Adjust font size for smaller screens */
+  }
+  
+  .header-content p {
+    font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-header {
+    height: 35vh; /* Further adjust height for very small screens */
+  }
+  
+  .header-content {
+    max-width: 100%; /* Full width for very small screens */
+    padding: 5px; /* Minimal padding for very small screens */
+  }
+  
+  .header-content h1 {
+    font-size: 1.8em; /* Adjust font size for very small screens */
+  }
+  
+  .header-content p {
+    font-size: 1em; /* Adjust font size for very small screens */
+  }
+}
