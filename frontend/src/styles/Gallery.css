@@ -1,0 +1,89 @@
+/* Container holding the portfolio items */
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to new lines if items exceed container width */
+    margin: -10px; /* Negative margin to account for the item margins */
+    padding: 10px; /* Padding to add space around the container */
+    padding-left: 50px; /* Increase left padding for spacing */
+    padding-right: 50px; /* Increase right padding for spacing */
+}
+
+/* Individual portfolio item */
+.portfolio-items > div {
+    flex: 0 0 calc(20% - 20px); /* Adjust to fit 5 items per row with margins */
+    margin: 10px; /* Spacing between items */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    position: relative; /* For positioning the overlay text */
+    padding-left: 20px;
+}
+
+/* Container for the image and hover effect */
+.image-container {
+    position: relative; /* Position relative for the hover effect */
+    overflow: hidden; /* Hide overflow for the scaling effect */
+}
+
+.gallery-image {
+    width: 170px; /* Full width */
+    height: 220px; /* Full height */
+    object-fit: cover; /* Cover the container */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Smooth transitions */
+    border-radius: 5px;
+}
+
+.image-container:hover .gallery-image {
+    transform: scale(1.1); /* Scale up on hover */
+    opacity: 0.2; /* Dim the image */
+}
+
+.hover-text {
+    position: absolute; /* Positioned absolutely within the container */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the text */
+    color:Black; /* White text */
+    font-size: 20px; /* Font size */
+    font-weight: bolder; /* Bold text */
+    text-align: center; /* Center the text */
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding around the text */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container:hover .hover-text {
+    opacity: 1; /* Show the title on hover */
+}
+
+/* Container for the section title */
+.section-title {
+    text-align: center; /* Center the text inside the container */
+    padding-top: 30px; /* Add top padding to the section title */
+    font-size: large;
+    padding-bottom: 20px;
+}
+
+/* Heading styling */
+.section-title h2 {
+    margin: 0; /* Remove default margin to ensure proper alignment */
+}
+
+/* Responsive design for different screen sizes */
+@media (max-width: 1024px) {
+    .portfolio-items > div {
+        flex: 0 0 calc(25% - 20px); /* Adjust for 4 items per row on larger tablets or smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio-items > div {
+        flex: 0 0 calc(33.33% - 20px); /* Adjust for 3 items per row on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-items > div {
+        flex: 0 0 calc(50% - 20px); /* Adjust for 2 items per row on small screens */
+    }
+}

@@ -1,0 +1,50 @@
+.data_disp
+{
+    margin-left: 50px;
+    margin-top:50px
+}
+
+#chec
+{
+    display: inline-flex;
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px;
+    align-items: center; 
+    margin-bottom: 30px;
+    transform: scale(1.5);
+}
+
+
+#chec input{
+    cursor: pointer;
+   
+}
+.dropdwn
+{
+    margin-left: 10px;
+    font-size: large;
+}
+
+.two_btn
+{
+    display: inline-flex;
+    margin-left: 40%;
+    margin-bottom: 50px;
+}
+
+.two_btn button
+{
+    height: 30px;
+    width: 100px;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+  

@@ -1,0 +1,67 @@
+{
+    "Header": {
+      "title": "WELCOME TO VEHICLE CONFIGURATOR",
+      "paragraph": "Your Fleet, Our Expertise, Business Elevated."
+    },
+    "Gallery": [
+      {
+        "title": "Spoiler",
+        "largeImage": "images/gallery/g1.jpg",
+        "smallImage": "images/gallery/g1.jpg"
+      },
+      {
+        "title": "Alloy Wheels",
+        "largeImage": "images/gallery/g2.jpg",
+        "smallImage": "images/gallery/g2.jpg"
+      },
+      {
+        "title": "Headlamps",
+        "largeImage": "images/gallery/g3.jpg",
+        "smallImage": "images/gallery/g3.jpg"
+      },
+      {
+        "title": "Music System",
+        "largeImage": "images/gallery/g4.jpg",
+        "smallImage": "images/gallery/g4.jpg"
+      },
+      {
+        "title": "Engine",
+        "largeImage": "images/gallery/g5.jpg",
+        "smallImage": "images/gallery/g5.jpg"
+      },
+      {
+        "title": "Seats",
+        "largeImage": "images/gallery/g6.jpg",
+        "smallImage": "images/gallery/g6.jpg"
+      },
+      {
+        "title": "Paints",
+        "largeImage": "images/gallery/g7.jpg",
+        "smallImage": "images/gallery/g7.jpg"
+      },
+      {
+        "title": "Brakes",
+        "largeImage": "images/gallery/g8.jpg",
+        "smallImage": "images/gallery/g8.jpg"
+      },
+      {
+        "title": "Exhausts",
+        "largeImage": "images/gallery/g9.jpg",
+        "smallImage": "images/gallery/g9.jpg"
+      },
+      {
+        "title": "Suspension",
+        "largeImage": "images/gallery/g10.jpg",
+        "smallImage": "images/gallery/g10.jpg"
+      }
+    ],
+  
+    "Contact": {
+      "address": "VITA Juhu, Mumbai",
+      "phone": "+91 7208578550",
+      "email": "info@company.com",
+      "facebook": "fb.com",
+      "twitter": "twitter.com",
+      "youtube": "youtube.com"
+    }
+  }
